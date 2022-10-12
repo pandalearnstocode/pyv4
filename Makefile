@@ -27,6 +27,10 @@ install:
 pre-commit-install:
 	poetry run pre-commit install
 
+.PHONY: release
+release:
+	poetry run semantic_release publish --minor
+
 #* Formatters
 .PHONY: codestyle
 codestyle:
