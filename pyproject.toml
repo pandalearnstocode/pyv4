@@ -151,5 +151,5 @@ version_toml = "pyproject.toml:tool.poetry.version"
 major_on_zero = false
 branch = "develop"
 upload_to_repository = true
-
+build_command = "poetry build"
 # https://python-semantic-release.readthedocs.io/en/latest/configuration.html#major-on-zero
