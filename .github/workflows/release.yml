@@ -9,11 +9,32 @@ jobs:
   release:
     runs-on: ubuntu-latest
     concurrency: release
-
+    strategy:
+      matrix:
+        python-version: ["3.8"]
     steps:
+    - name: Install system level libraries
+      run: |
+        sudo apt-get update
+        sudo apt-get -y install libpq-dev gcc
     - uses: actions/checkout@v3
       with:
         fetch-depth: 0
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v4.2.0
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Install poetry
+      run: make poetry-download
+    - name: Install Python dependencies
+      run: |
+        poetry config virtualenvs.in-project true
+        poetry install -n
+    - name: Set up cache
+      uses: actions/cache@v3.0.10
+      with:
+        path: .venv
+        key: venv-${{ matrix.python-version }}-${{ hashFiles('pyproject.toml') }}-${{ hashFiles('poetry.lock') }}
     - name: Python Semantic Release
       uses: relekang/python-semantic-release@master
       with:
