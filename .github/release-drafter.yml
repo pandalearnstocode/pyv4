@@ -6,9 +6,9 @@ tag-template: "v$NEXT_PATCH_VERSION"
 
 categories:
   - title: ":rocket: Features"
-    labels: [enhancement, feature]
+    labels: [enhancement, feature, feat, Feat]
   - title: ":wrench: Fixes & Refactoring"
-    labels: [bug, refactoring, bugfix, fix]
+    labels: [bug, refactoring, bugfix, fix, Fix]
   - title: ":package: Build System & CI/CD"
     labels: [build, ci, testing]
   - title: ":boom: Breaking Changes"
