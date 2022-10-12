@@ -19,7 +19,6 @@ Awesome `pyv4` is a Python cli/package created with https://github.com/TezRomacH
 
 ## Very first steps
 
-
 ### Initialize your code
 
 1. Initialize `git` inside your repo:
