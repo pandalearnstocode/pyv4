@@ -144,3 +144,9 @@ branch = true
 [coverage.report]
 fail_under = 50
 show_missing = true
+
+[tool.semantic_release]
+version_variable = "pyv4:__init__.py:version"
+# https://python-semantic-release.readthedocs.io/en/latest/configuration.html#major-on-zero
+major_on_zero = false
+commit_parser="changelog.parse_commit"
