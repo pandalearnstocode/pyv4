@@ -150,3 +150,5 @@ show_missing = true
 version_toml = "pyproject.toml:tool.poetry.version"
 # https://python-semantic-release.readthedocs.io/en/latest/configuration.html#major-on-zero
 major_on_zero = false
+branch = "develop"
+upload_to_repository = true
