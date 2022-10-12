@@ -21,7 +21,7 @@ jobs:
           # Default: https://github.com/commitizen/conventional-commit-types
           types: |
             fix
-            feat
+            Feat
           # Configure which scopes are allowed (newline delimited).
           scopes: |
             core
