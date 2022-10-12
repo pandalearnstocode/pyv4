@@ -13,12 +13,12 @@
 [![License](https://img.shields.io/github/license/pandalearnstocode/pyv4)](https://github.com/pandalearnstocode/pyv4/blob/master/LICENSE)
 ![Coverage Report](assets/images/coverage.svg)
 
+
 Awesome `pyv4` is a Python cli/package created with https://github.com/TezRomacH/python-package-template
 
 </div>
 
 ## Very first steps
-
 
 ### Initialize your code
 
