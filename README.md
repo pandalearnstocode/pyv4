@@ -1,6 +1,5 @@
 # pyv4
 
-
 <div align="center">
 
 [![Build status](https://github.com/pandalearnstocode/pyv4/workflows/build/badge.svg?branch=master&event=push)](https://github.com/pandalearnstocode/pyv4/actions?query=workflow%3Abuild)
@@ -15,6 +14,7 @@
 ![Coverage Report](assets/images/coverage.svg)
 
 Awesome `pyv4` is a Python cli/package created with https://github.com/TezRomacH/python-package-template
+
 
 </div>
 
