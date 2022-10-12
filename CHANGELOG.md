@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.2 (2022-10-12)
+### Fix
+* **ui:** Draft myy release ([`35adceb`](https://github.com/pandalearnstocode/pyv4/commit/35adcebb020bce5b53588f8163d000e372e1a734))
+
 ## v0.1.1 (2022-10-12)
 ### Fix
 * **ui:** Checking release drafter changes ([`137f0cf`](https://github.com/pandalearnstocode/pyv4/commit/137f0cfad269675c5a45e3cf949130edbeb112c4))
