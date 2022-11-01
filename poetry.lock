@@ -772,7 +772,7 @@ python-versions = ">=3.6"
 
 [[package]]
 name = "readme-renderer"
-version = "37.2"
+version = "37.3"
 description = "readme_renderer is a library for rendering \"readme\" descriptions for Warehouse"
 category = "main"
 optional = false
@@ -1584,8 +1584,8 @@ pyyaml = [
     {file = "PyYAML-6.0.tar.gz", hash = "sha256:68fb519c14306fec9720a2a5b45bc9f0c8d1b9c72adf45c37baedfcd949c35a2"},
 ]
 readme-renderer = [
-    {file = "readme_renderer-37.2-py3-none-any.whl", hash = "sha256:d3f06a69e8c40fca9ab3174eca48f96d9771eddb43517b17d96583418427b106"},
-    {file = "readme_renderer-37.2.tar.gz", hash = "sha256:e8ad25293c98f781dbc2c5a36a309929390009f902f99e1798c761aaf04a7923"},
+    {file = "readme_renderer-37.3-py3-none-any.whl", hash = "sha256:f67a16caedfa71eef48a31b39708637a6f4664c4394801a7b0d6432d13907343"},
+    {file = "readme_renderer-37.3.tar.gz", hash = "sha256:cd653186dfc73055656f090f227f5cb22a046d7f71a841dfa305f55c9a513273"},
 ]
 requests = [
     {file = "requests-2.28.1-py3-none-any.whl", hash = "sha256:8fefa2a1a1365bf5520aac41836fbee479da67864514bdb821f31ce07ce65349"},
